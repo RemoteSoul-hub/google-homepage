@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    color: grey;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 15%;
+    margin-top: 20px;
+}
+body {
+
+}
+
+.logo {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+
+.search {
+    display: block;
+    padding: 10px;
+    margin: auto;
+    border-radius: 12px;
+    width: 30%;
+}
+.bodylink {
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    position: fixed;
+    margin-top: 19%;
+}
+
+.button {
+    background-color: #blue;
+    color: #fff;
+}
