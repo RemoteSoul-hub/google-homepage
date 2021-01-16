@@ -4,22 +4,38 @@
     padding:0;
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
 }
 
 a {
     color: grey;
 }
 
-header {
+header ul.left-menu {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding-bottom: 15%;
-    margin-top: 20px;
+    justify-content: left;
+    flex-direction: row;
 }
+header ul.right-menu {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+.left-menu li {
+    position: relative;
+    margin-top: 35px;
+    margin-left: 20px;
+    padding: 0 15px;
+}
+.right-menu li {
+    margin-bottom: 10%;
+    padding: 0 20px;
+}
+
+/* 
 body {
 
-}
+} */
 
 .logo {
     display: block;
